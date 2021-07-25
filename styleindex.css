@@ -195,7 +195,7 @@ label[for="bt_menu"]{
 }
     
     #bt_menu:checked ~ .menu{
-        margin-left: 130px;
+        margin-left: 50px;
         
     }
     .menu{
