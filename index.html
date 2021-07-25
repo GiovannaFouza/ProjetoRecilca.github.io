@@ -18,19 +18,35 @@
 <body>
     <input type="checkbox" id="bt_menu"><!-- Botão para fazer o menu responsivo-->
     <label for="bt_menu">&#9776;</label>
-<nav class="menu"> <!-- Menu normal-->
+    <nav class="menu">
+        <!-- Menu normal-->
 
-    <ul>
-<!--        <li><img src="..\imagens\logo3.jpeg" width="180px" height="75px">-->
-        <li><a href="index.html">Sobre</a>
-        </li>
-        <li><a href="anuncios.html">Projeto</a>
-        </li>
-        <li><a href="cadastro.html">Contato</a>
-        </li>
-        <li><a href="motosantigas.html">Comentários</a>
-    </ul>
-</nav>
+        <ul>
+            <!--        <li><img src="..\imagens\logo3.jpeg" width="180px" height="75px">-->
+            <li><a href="index.html">Consequências</a>
+                <ul>
+                    <li><a href="localizacaogramado.html">Descarte incorreto do lixo </a></li>
+
+                </ul>
+            </li>
+            <li><a href="anuncios.html">Descarte</a>
+                <ul>
+                    <li><a href="localizacaogramado.html">Lixo eletrônico </a></li>
+                    <li><a href="localizacaogramado.html">Lixo hospitalar</a></li>
+                    <li><a href="localizacaogramado.html">Lixo infectante</a></li>
+                    <li><a href="localizacaogramado.html">resíduo industrial</a></li>
+                    <li><a href="localizacaogramado.html">Lixo reciclável</a></li>
+                    <li><a href="localizacaogramado.html">Lixo doméstico</a></li>
+                    <li><a href="localizacaogramado.html">Vidros</a></li>
+                    <li><a href="localizacaogramado.html">Embalagens</a></li>
+
+                </ul>
+            </li>
+            <li><a href="cadastro.html">Contato</a>
+            </li>
+            <li><a href="motosantigas.html">Comentários</a>
+        </ul>
+    </nav>
     <br>
     <br>
     <br>
@@ -45,21 +61,63 @@
             <br>
         </div>
 
+        <div id="lixos" class="col-sm-12 col-md-12 col-lg-12">
+            <h4>Consequências do descarte incorreto do lixo</h4>
+            <b><i>
+                    <p id="texto">O descarte inadequado de lixo leva à formação de ilhas de lixo nos rios, prejudicando a sobrevivência da fauna e flora de diversas regiões. ... Outro problema causado pelo descarte de lixo nos rios é a proliferação de insetos vetores de doenças, como o Aedes aegypti, que causa a dengue, a zica e a chikungunya.</p>
+                </i></b>
+
+            <center><a id="link" href="index.html">Continuar lendo</a></center>
+            <br>
+            <br>
+        </div>
+
+        <div id="imagens" class="col-sm-12 col-md-12 col-lg-12">
+
+
+            <div class="col-sm-6 col-md-6 col-lg-6">
+                <center><img src="lixo.jpg" width="65%" height="65%">
+                    <!--                    <figcaption>Vitória Ferracini Souza</figcaption>-->
+                </center>
+                <br>
+                <br>
+            </div>
+
+            <div class="col-sm-6 col-md-6 col-lg-6">
+                <center><img src="lixo1.jpeg" width="70%" height="50%">
+                    <!--                    <figcaption>Giovanna Ferracini Souza</figcaption>-->
+                </center>
+                <br>
+                <br>
+            </div>
+
+        </div>
+
+        <div id="linha" class="col-sm-12 col-md-12 col-lg-12">
+            <p id="verde">verde</p>
+        </div>
+
         <div class="missao">
-            <p id="titulo1"><b>Missão:</b></p>
-            <p id="resumo"><i>Passar para a população informações de como descartar corretamente resíduis sólidos.</i> </p>
+            <b>
+                <p id="equipe">Missão:</p>
+            </b>
+            <p id="resumo"><i>Passar para a população informações de como descartar corretamente resíduos sólidos.</i> </p>
             <br>
         </div>
 
 
         <div class="visao">
-            <p id="titulo1"><b>Visão:</b></p>
+            <b>
+                <p id="equipe">Visão:</p>
+            </b>
             <p id="resumo"><i>Criar uma forma fácil e pratica de acessar infomações ambientais.</i> </p>
             <br>
         </div>
 
         <div class="valores">
-            <p id="titulo1"><b>Valores:</b></p>
+            <b>
+                <p id="equipe">Valores:</p>
+            </b>
             <p id="resumo"><i>Acreditamos que com respeito, dedicação e determinação conseguiremos realizar nossos objetivos.</i> </p>
         </div>
 
@@ -85,6 +143,13 @@
 
         </div>
 
+        <!--
+        <div id="lixos" class="col-sm-12 col-md-12 col-lg-12">
+            <h2>Consequências do descarte incorreto do lixo</h2>
+            <b><i><p id="texto">O descarte inadequado de lixo leva à formação de ilhas de lixo nos rios, prejudicando a sobrevivência da fauna e flora de diversas regiões. ... Outro problema causado pelo descarte de lixo nos rios é a proliferação de insetos vetores de doenças, como o Aedes aegypti, que causa a dengue, a zica e a chikungunya.</p></i></b>
+
+        </div>
+-->
 
         <div id="comentarios" class="col-sm-12 col-md-12 col-lg-12">
             <center>
@@ -93,12 +158,14 @@
                     <textarea name="Comentarios" rows="5" cols="50" placeholder="Digite aqui o seu texto" maxlength=180 required></textarea>
                     <br>
                     <input type="submit" class="btn btn-success" name="botao" value="Enviar">
-                    
+
                 </form>
             </center>
             <br>
             <br>
         </div>
+
+
     </div>
     <div class="col-sm-12 col-md-3 col-lg-3"></div>
 

@@ -1,5 +1,10 @@
 body {
     position: relative;
+    background-image: url(paredeverde3.png);
+    background-attachment: fixed;
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    
 }
 
 nav{
@@ -15,22 +20,45 @@ h1{
 
 }
 
+#link{
+    
+    font-size: 20px;
+    font-family: Comic Sans MS;
+    text-align: center;
+}
+#verde{
+    background-color: darkseagreen; 
+    color: darkseagreen;
+    font-size: 30px;
+}
+h4{
+    font-size: 30px;
+    color: black;
+    text-align: center;
+    font-family: Comic Sans MS;
+
+}
+
 #resumo{
     text-align: center; 
     font-size: 20px;
     font-family: Comic Sans MS;
+    color: gray;
 }
 
-#titulo1{
+#texto{
     text-align: center;
-    font-size: 30px;
+    font-size: 25px;
+    color: black;
     font-family: Comic Sans MS;
+    
 }
 
 #equipe{
     text-align: center;
     font-size: 30px;
     font-family: Comic Sans MS;
+    color: gray;
 }
 .dropdown-toggle {
     font-size: 25px;
@@ -144,7 +172,7 @@ nav ul ul {
 		top: 0;
 		z-index: 99;
 		transition: all .5s;
-        margin-left: 600px; float:left;
+        margin-left: 520px; float:left;
         flex-direction: row; align-items: baseline;
 	}
 
